@@ -34,32 +34,97 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>        
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
-<!-- Profile Intro Section -->
-<section id="profile">
-  <div class="sectionPicContainer">
-    <img src="./assets/profile-pic.png" alt="Daira Felix profile pic">
-  </div>
-  <div class="sectionText">
-    <p class="sectionTextP1">Hello, I'm</p>
-    <h1 class="title">Daira Felix</h1>
-    <p class="sectionTextP2">Frontend Developer</p>
-    <div class="btnContainer">
-      <button class="btn btnColor2" onclick="window.open('./assets/dairaFelixResume_2023.pdf')">Download CV</button>
-      <button class="btn btnColor1" onclick="location.href='./#contact'">Contact Info</button>
+    <!-- Profile Intro Section -->
+    <section id="profile">
+      <div class="sectionPicContainer">
+        <img src="./assets/profile-pic.png" alt="Daira Felix profile pic" />
+      </div>
+      <div class="sectionText">
+        <p class="sectionTextP1">Hello, I'm</p>
+        <h1 class="title">Daira Felix</h1>
+        <p class="sectionTextP2">Frontend Developer</p>
+        <div class="btnContainer">
+          <button
+            class="btn btnColor2"
+            onclick="window.open('./assets/dairaFelixResume_2023.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btnColor1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socialsContainer">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinledIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/dairafelix/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub profile"
+            class="icon"
+            onclick="location.href='https://github.com/dairafelix'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <p class="sectionTextP1">Get to know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="sectionContainer">
+        <div class="sectionPicContainer">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile Picture"
+            class="aboutPic"
+          />
+        </div>
+        <div class="aboutDetailsContainer">
+          <div class="aboutContainers">
+            <div class="detailsContainer">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                2+ years <br />
+                Frontend Experience
+              </p>
+            </div>
+            <div class="detailsContainer">
+            <img
+              src="./assets/education.png"
+              alt="education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.S. Bachelors Degree</p>
+          </div>
+        </div>
+        <div class="textContainer">
+          <h3>Certificates</h3>
+          <p>
+            Full Stack Web Developer Certificate
+            <br />Google Project Management <br />Google IT Automation with
+            Python <br />Google UX Design <br />Google Data Analytics
+          </p>
+        </div>
+      </div>
     </div>
-    <div id="socialsContainer">
-      <img src="./assets/linkedin.png" alt="My LinledIn profile"
-      class="icon" onclick="location.href='https://www.linkedin.com/in/dairafelix/'">
-      <img src="./assets/github.png" alt="My GitHub profile"
-      class="icon" onclick="location.href='https://github.com/dairafelix'">
-    </div>
-  </div>
-</section>
-</section>
+    <img src="./assets/arrow.png" 
+    alt="Arrow Icon" 
+    class="icon arrow"
+    onclick="location.href='./#experience'"/>
+    </section>
 
     <!-- reference JS sheet -->
     <script src="script.js"></script>
